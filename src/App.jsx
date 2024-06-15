@@ -18,11 +18,7 @@ const small = {
 };
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <Home />;
 }
 
 export function Tutorial() {
