@@ -1,7 +1,10 @@
-import { Button } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { MyButton } from "./MyButton";
 import { MyButton2 } from "./MyButton";
+import { MyLayout } from "./MyLayout";
+import Home from "./FirstDesign/Home";
+import "./index.css";
 
 const names = {
   first: "h5",
@@ -17,6 +20,14 @@ const small = {
 function App() {
   return (
     <div className="App">
+      <Home />
+    </div>
+  );
+}
+
+export function Tutorial() {
+  return (
+    <>
       <Typography
         backgroundColor={normal.backgroundColor}
         sx={small}
@@ -37,8 +48,10 @@ function App() {
       </Button>
 
       <MyButton varient={"text"} message={"Click me"}></MyButton>
-      <MyButton2  message={"Click me"}></MyButton2>
-    </div>
+      <MyButton2 message={"Click me"}></MyButton2>
+
+      <MyLayout></MyLayout>
+    </>
   );
 }
 
