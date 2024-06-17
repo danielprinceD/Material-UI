@@ -13,6 +13,7 @@ const names = {
 
 const normal = {
   backgroundColor: "red",
+  color:"white"
 };
 const small = {
   backgroundColor: "green",
