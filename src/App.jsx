@@ -5,20 +5,25 @@ import { MyButton2 } from "./MyButton";
 import { MyLayout } from "./MyLayout";
 import Home from "./FirstDesign/Home";
 import "./index.css";
+import MyPaper from "./Tutorial/MyPaper";
 
 const names = {
   first: "h5",
 };
 
 const normal = {
-  backgroundColor: "red",
+  backgroundColor: "red"
 };
 const small = {
   backgroundColor: "green",
 };
 
 function App() {
-  return <Home />;
+  return <MyPaper />;
+}
+
+export function FirstDesign (){
+   return <Home />
 }
 
 export function Tutorial() {

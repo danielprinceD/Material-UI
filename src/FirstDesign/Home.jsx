@@ -15,13 +15,13 @@ const Home = () => {
 
   return (
     <ThemeProvider theme={myTheme}>
-      <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+      <Button onClick={() => setTheme(theme == "light" ? "dark" : "light")}>
         {theme}
       </Button>
       <Stack
-        direction={"column"}
+        direction="column"
         bgcolor="background.default"
-        color={"text.primary"}
+        color="text.primary"
       >
         <Header />
         <Grid
