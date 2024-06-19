@@ -12,7 +12,7 @@ const names = {
 };
 
 const normal = {
-  backgroundColor: "red"
+  backgroundColor: "red",
 };
 const small = {
   backgroundColor: "green",
@@ -22,8 +22,8 @@ function App() {
   return <MyPaper />;
 }
 
-export function FirstDesign (){
-   return <Home />
+export function FirstDesign() {
+  return <Home />;
 }
 
 export function Tutorial() {
